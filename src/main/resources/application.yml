@@ -1,0 +1,16 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          # 페이스북 앱 정보
+          facebook:
+            client-id: 681655205504975
+            client-secret: 7a37be5aa42a483202c94744a5747065
+          # 구글 앱 정보
+          google:
+            client-id: test
+            client-secret: test_secret
+
+# 소셜 로그인 사용할 SNS 종류
+spring.social.auths: facebook,google
